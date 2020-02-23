@@ -60,7 +60,7 @@ body {
 .header__navigation .navigation {
     margin: 0;
     padding: 0 0 0 0;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.05px;
 }
 
 .header__navigation .item {
@@ -69,7 +69,7 @@ body {
     margin: 0 10px;
 }
 
-.header__navigation .item:before {
+.header__navigation .item::before {
     content: "·";
     position: relative;
     top: 1.6px;
@@ -236,16 +236,16 @@ body {
     padding: 69px 10px 0;
     color: #666d89;
     text-transform: capitalize;
-    font: 900 30px/18px "Lato", sans-serif;
+    font: 900 3rem/18px "Lato", sans-serif;
 }
 
 .services .services__about {
     height: 60px;
-    margin: 27px 0 0;
+    margin: 26px 0 0;
     padding: 0 10px;
     overflow: hidden;
     color: #767e9e;
-    font: 300 18px/30px "Lato", sans-serif;
+    font: 300 1.8rem/30px "Lato", sans-serif;
 }
 
 .services-list {
@@ -321,15 +321,16 @@ body {
 
 .item-wrapper .item-wrapper__heading {
     margin: 0;
-    font: 900 18px/18px "Lato", sans-serif;
+    font: 900 1.8rem/18px "Lato", sans-serif;
+    letter-spacing: -0.2px;
     color: #666d89;
     text-transform: capitalize;
 }
 
 .item-wrapper .item-wrapper__content {
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 9px;
     color: #767e9e;
-    font: 400 12px/22px "Lato", sans-serif;
+    font: 400 1.2rem/22px "Lato", sans-serif;
     text-align: justify;
 }
