@@ -20,6 +20,20 @@ body {
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+.portfolio .heading,
+.about .heading {
+    margin: 0;
+    text-transform: capitalize;
+    font: 900 3rem/1.8rem "Lato", sans-serif;
+    color: #666d89;
+}
+
+.content {
+    padding: 0;
+    font: 300 1.8rem/3rem "Lato", sans-serif;
 }
 
 /* PORTFOLIO */
@@ -30,23 +44,13 @@ body {
     border-bottom: 6px solid #323746;
 }
 
-.portfolio .wrapper {
-    padding: 0 10px;
-}
-
 .portfolio__heading {
-    margin: 0;
-    padding: 69px 0 0;
-    text-transform: capitalize;
-    font: 900 3rem/1.8rem "Lato", sans-serif;
+    padding-top: 69px;
     letter-spacing: -0.2px;
-    color: #666d89;
 }
 
 .portfolio__content {
     margin: 27px 0 0;
-    padding: 0;
-    font: 300 1.8rem/3rem "Lato", sans-serif;
     color: #696f8b;
 }
 
@@ -165,4 +169,89 @@ body {
 .picture_12 {
     background: url("./assets/projects/12.jpg");
     background-position: 260px -60px;
+}
+
+/* ABOUT US */
+
+.about {
+    height: 734px;
+    background: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+}
+
+.about__heading {
+    padding-top: 68px;
+}
+
+.about__content {
+    margin-top: 27px;
+    color: #767e9e;
+    text-align: justify;
+}
+
+.about__staff {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 27px;
+}
+
+.person-2 {
+    margin-left: 19px;
+    margin-right: 21px;
+}
+
+.about__staff_person {
+    flex-basis: 300px;
+    overflow: hidden;
+}
+
+.person__name {
+    margin: 13px 0 0; 
+    height: 20px;
+    overflow: hidden;
+    font: 900 1.8rem/1.8rem "Lato", sans-serif;
+    text-transform: capitalize;
+    color: #666d89;
+    letter-spacing: -0.2px;
+}
+
+.person__qual {
+    margin: 8px 0 0;
+    font: 400 1.2rem/2.1rem "Lato", sans-serif;
+    color: #767e9e;
+    text-align: justify;
+}
+
+.person__qual-first {
+    letter-spacing: -0.25px;
+}
+
+.social-icons {
+    margin-top: 24px;
+}
+
+.icons__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.icons__item {
+    margin-right: 8px;
+    list-style-type: none;
+}
+
+.icons__item-face {
+    margin-left: 1px;
+}
+
+.icons__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.icons__link:hover {
+    background: #dedede;
 }
