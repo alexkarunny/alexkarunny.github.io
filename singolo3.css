@@ -173,3 +173,30 @@ body {
     text-decoration: none;
     color: #f0d8d9;
 }
+
+/* FOOTER */
+
+.footer {
+    height: 76px;
+    background: #2d303a;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    margin: 0;
+    padding: 29px 0 0 2px;
+    color: #5b6179;
+    font: 300 1.2rem "Lato", sans-serif;
+}
+
+.footer__icons {
+    margin-top: 21px;
+}
+
+.footer__icons .icons__item:last-child{
+    margin-right: 0;
+}
